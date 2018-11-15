@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D13ED35219DEF3F009ABB8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13ED34219DEF3F009ABB8B /* AppDelegate.swift */; };
+		9D13ED37219DEF3F009ABB8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13ED36219DEF3F009ABB8B /* ViewController.swift */; };
+		9D13ED3A219DEF3F009ABB8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D13ED38219DEF3F009ABB8B /* Main.storyboard */; };
+		9D13ED3C219DEF40009ABB8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D13ED3B219DEF40009ABB8B /* Assets.xcassets */; };
+		9D13ED3F219DEF40009ABB8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D13ED3D219DEF40009ABB8B /* LaunchScreen.storyboard */; };
+		9D13ED4A219DEF40009ABB8B /* GeniusPlazaCodingChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13ED49219DEF40009ABB8B /* GeniusPlazaCodingChallengeTests.swift */; };
+		9D13ED55219DEF40009ABB8B /* GeniusPlazaCodingChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13ED54219DEF40009ABB8B /* GeniusPlazaCodingChallengeUITests.swift */; };
+		9D13ED63219DF077009ABB8B /* ApiFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13ED62219DF077009ABB8B /* ApiFunctions.swift */; };
+		9D13ED65219DF24D009ABB8B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13ED64219DF24D009ABB8B /* Constants.swift */; };
+		9D13ED68219DF410009ABB8B /* IOSAppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13ED67219DF410009ABB8B /* IOSAppModel.swift */; };
+		9D13ED6A219DF7E5009ABB8B /* ParseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13ED69219DF7E5009ABB8B /* ParseHelper.swift */; };
+		C411D1285C1D307DEDF7DCD7 /* Pods_GeniusPlazaCodingChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CCCCEFA570EA633267001B /* Pods_GeniusPlazaCodingChallengeTests.framework */; };
+		E5A27662CADC65975C4F852E /* Pods_GeniusPlazaCodingChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209B850BA7C451D3B7EEA032 /* Pods_GeniusPlazaCodingChallenge.framework */; };
+		E5BC7C1DBBF9B14E8E7459F9 /* Pods_GeniusPlazaCodingChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A32CB4B2B8A47DC93DCE209 /* Pods_GeniusPlazaCodingChallengeUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D13ED46219DEF40009ABB8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D13ED29219DEF3E009ABB8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D13ED30219DEF3F009ABB8B;
+			remoteInfo = GeniusPlazaCodingChallenge;
+		};
+		9D13ED51219DEF40009ABB8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D13ED29219DEF3E009ABB8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D13ED30219DEF3F009ABB8B;
+			remoteInfo = GeniusPlazaCodingChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0817FCA28AACDB54A0D982F2 /* Pods-GeniusPlazaCodingChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusPlazaCodingChallengeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeniusPlazaCodingChallengeUITests/Pods-GeniusPlazaCodingChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0963E50FC755B54CB393B1E7 /* Pods-GeniusPlazaCodingChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusPlazaCodingChallengeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeniusPlazaCodingChallengeTests/Pods-GeniusPlazaCodingChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		13CCCCEFA570EA633267001B /* Pods_GeniusPlazaCodingChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeniusPlazaCodingChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F82FB69B95CE203DE4AB376 /* Pods-GeniusPlazaCodingChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusPlazaCodingChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeniusPlazaCodingChallenge/Pods-GeniusPlazaCodingChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		209B850BA7C451D3B7EEA032 /* Pods_GeniusPlazaCodingChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeniusPlazaCodingChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A32CB4B2B8A47DC93DCE209 /* Pods_GeniusPlazaCodingChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeniusPlazaCodingChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		715EECD0662011B2C1548C7B /* Pods-GeniusPlazaCodingChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusPlazaCodingChallengeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeniusPlazaCodingChallengeTests/Pods-GeniusPlazaCodingChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D13ED31219DEF3F009ABB8B /* GeniusPlazaCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeniusPlazaCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D13ED34219DEF3F009ABB8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9D13ED36219DEF3F009ABB8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9D13ED39219DEF3F009ABB8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D13ED3B219DEF40009ABB8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D13ED3E219DEF40009ABB8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D13ED40219DEF40009ABB8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D13ED45219DEF40009ABB8B /* GeniusPlazaCodingChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeniusPlazaCodingChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D13ED49219DEF40009ABB8B /* GeniusPlazaCodingChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusPlazaCodingChallengeTests.swift; sourceTree = "<group>"; };
+		9D13ED4B219DEF40009ABB8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D13ED50219DEF40009ABB8B /* GeniusPlazaCodingChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeniusPlazaCodingChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D13ED54219DEF40009ABB8B /* GeniusPlazaCodingChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusPlazaCodingChallengeUITests.swift; sourceTree = "<group>"; };
+		9D13ED56219DEF40009ABB8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D13ED62219DF077009ABB8B /* ApiFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiFunctions.swift; sourceTree = "<group>"; };
+		9D13ED64219DF24D009ABB8B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9D13ED67219DF410009ABB8B /* IOSAppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSAppModel.swift; sourceTree = "<group>"; };
+		9D13ED69219DF7E5009ABB8B /* ParseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseHelper.swift; sourceTree = "<group>"; };
+		BC6C1A424A8AB1C330137CC9 /* Pods-GeniusPlazaCodingChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusPlazaCodingChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeniusPlazaCodingChallenge/Pods-GeniusPlazaCodingChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		C3947D963BDE1D258D3372CF /* Pods-GeniusPlazaCodingChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusPlazaCodingChallengeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeniusPlazaCodingChallengeUITests/Pods-GeniusPlazaCodingChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D13ED2E219DEF3F009ABB8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A27662CADC65975C4F852E /* Pods_GeniusPlazaCodingChallenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D13ED42219DEF40009ABB8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C411D1285C1D307DEDF7DCD7 /* Pods_GeniusPlazaCodingChallengeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D13ED4D219DEF40009ABB8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5BC7C1DBBF9B14E8E7459F9 /* Pods_GeniusPlazaCodingChallengeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		318A5B846D3D33AC6470AC2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				209B850BA7C451D3B7EEA032 /* Pods_GeniusPlazaCodingChallenge.framework */,
+				13CCCCEFA570EA633267001B /* Pods_GeniusPlazaCodingChallengeTests.framework */,
+				3A32CB4B2B8A47DC93DCE209 /* Pods_GeniusPlazaCodingChallengeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D13ED28219DEF3E009ABB8B = {
+			isa = PBXGroup;
+			children = (
+				9D13ED33219DEF3F009ABB8B /* GeniusPlazaCodingChallenge */,
+				9D13ED48219DEF40009ABB8B /* GeniusPlazaCodingChallengeTests */,
+				9D13ED53219DEF40009ABB8B /* GeniusPlazaCodingChallengeUITests */,
+				9D13ED32219DEF3F009ABB8B /* Products */,
+				DA1DAE163BB1EE7EE0BB5000 /* Pods */,
+				318A5B846D3D33AC6470AC2D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9D13ED32219DEF3F009ABB8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D13ED31219DEF3F009ABB8B /* GeniusPlazaCodingChallenge.app */,
+				9D13ED45219DEF40009ABB8B /* GeniusPlazaCodingChallengeTests.xctest */,
+				9D13ED50219DEF40009ABB8B /* GeniusPlazaCodingChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D13ED33219DEF3F009ABB8B /* GeniusPlazaCodingChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				9D13ED66219DF3FB009ABB8B /* Models */,
+				9D13ED34219DEF3F009ABB8B /* AppDelegate.swift */,
+				9D13ED36219DEF3F009ABB8B /* ViewController.swift */,
+				9D13ED38219DEF3F009ABB8B /* Main.storyboard */,
+				9D13ED3B219DEF40009ABB8B /* Assets.xcassets */,
+				9D13ED3D219DEF40009ABB8B /* LaunchScreen.storyboard */,
+				9D13ED40219DEF40009ABB8B /* Info.plist */,
+				9D13ED62219DF077009ABB8B /* ApiFunctions.swift */,
+				9D13ED64219DF24D009ABB8B /* Constants.swift */,
+				9D13ED69219DF7E5009ABB8B /* ParseHelper.swift */,
+			);
+			path = GeniusPlazaCodingChallenge;
+			sourceTree = "<group>";
+		};
+		9D13ED48219DEF40009ABB8B /* GeniusPlazaCodingChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D13ED49219DEF40009ABB8B /* GeniusPlazaCodingChallengeTests.swift */,
+				9D13ED4B219DEF40009ABB8B /* Info.plist */,
+			);
+			path = GeniusPlazaCodingChallengeTests;
+			sourceTree = "<group>";
+		};
+		9D13ED53219DEF40009ABB8B /* GeniusPlazaCodingChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D13ED54219DEF40009ABB8B /* GeniusPlazaCodingChallengeUITests.swift */,
+				9D13ED56219DEF40009ABB8B /* Info.plist */,
+			);
+			path = GeniusPlazaCodingChallengeUITests;
+			sourceTree = "<group>";
+		};
+		9D13ED66219DF3FB009ABB8B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9D13ED67219DF410009ABB8B /* IOSAppModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DA1DAE163BB1EE7EE0BB5000 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC6C1A424A8AB1C330137CC9 /* Pods-GeniusPlazaCodingChallenge.debug.xcconfig */,
+				1F82FB69B95CE203DE4AB376 /* Pods-GeniusPlazaCodingChallenge.release.xcconfig */,
+				0963E50FC755B54CB393B1E7 /* Pods-GeniusPlazaCodingChallengeTests.debug.xcconfig */,
+				715EECD0662011B2C1548C7B /* Pods-GeniusPlazaCodingChallengeTests.release.xcconfig */,
+				0817FCA28AACDB54A0D982F2 /* Pods-GeniusPlazaCodingChallengeUITests.debug.xcconfig */,
+				C3947D963BDE1D258D3372CF /* Pods-GeniusPlazaCodingChallengeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D13ED30219DEF3F009ABB8B /* GeniusPlazaCodingChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D13ED59219DEF40009ABB8B /* Build configuration list for PBXNativeTarget "GeniusPlazaCodingChallenge" */;
+			buildPhases = (
+				6ACAE3EB3B97259387BAD97A /* [CP] Check Pods Manifest.lock */,
+				9D13ED2D219DEF3F009ABB8B /* Sources */,
+				9D13ED2E219DEF3F009ABB8B /* Frameworks */,
+				9D13ED2F219DEF3F009ABB8B /* Resources */,
+				1C6CBB1EAC38D5C4F282AED4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeniusPlazaCodingChallenge;
+			productName = GeniusPlazaCodingChallenge;
+			productReference = 9D13ED31219DEF3F009ABB8B /* GeniusPlazaCodingChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D13ED44219DEF40009ABB8B /* GeniusPlazaCodingChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D13ED5C219DEF40009ABB8B /* Build configuration list for PBXNativeTarget "GeniusPlazaCodingChallengeTests" */;
+			buildPhases = (
+				25E1ECAB8F7FDD19DAC87953 /* [CP] Check Pods Manifest.lock */,
+				9D13ED41219DEF40009ABB8B /* Sources */,
+				9D13ED42219DEF40009ABB8B /* Frameworks */,
+				9D13ED43219DEF40009ABB8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D13ED47219DEF40009ABB8B /* PBXTargetDependency */,
+			);
+			name = GeniusPlazaCodingChallengeTests;
+			productName = GeniusPlazaCodingChallengeTests;
+			productReference = 9D13ED45219DEF40009ABB8B /* GeniusPlazaCodingChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D13ED4F219DEF40009ABB8B /* GeniusPlazaCodingChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D13ED5F219DEF40009ABB8B /* Build configuration list for PBXNativeTarget "GeniusPlazaCodingChallengeUITests" */;
+			buildPhases = (
+				96EC164B1AF43CA5DEDA93B6 /* [CP] Check Pods Manifest.lock */,
+				9D13ED4C219DEF40009ABB8B /* Sources */,
+				9D13ED4D219DEF40009ABB8B /* Frameworks */,
+				9D13ED4E219DEF40009ABB8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D13ED52219DEF40009ABB8B /* PBXTargetDependency */,
+			);
+			name = GeniusPlazaCodingChallengeUITests;
+			productName = GeniusPlazaCodingChallengeUITests;
+			productReference = 9D13ED50219DEF40009ABB8B /* GeniusPlazaCodingChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D13ED29219DEF3E009ABB8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Luis Perrone";
+				TargetAttributes = {
+					9D13ED30219DEF3F009ABB8B = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					9D13ED44219DEF40009ABB8B = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 9D13ED30219DEF3F009ABB8B;
+					};
+					9D13ED4F219DEF40009ABB8B = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 9D13ED30219DEF3F009ABB8B;
+					};
+				};
+			};
+			buildConfigurationList = 9D13ED2C219DEF3E009ABB8B /* Build configuration list for PBXProject "GeniusPlazaCodingChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D13ED28219DEF3E009ABB8B;
+			productRefGroup = 9D13ED32219DEF3F009ABB8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D13ED30219DEF3F009ABB8B /* GeniusPlazaCodingChallenge */,
+				9D13ED44219DEF40009ABB8B /* GeniusPlazaCodingChallengeTests */,
+				9D13ED4F219DEF40009ABB8B /* GeniusPlazaCodingChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D13ED2F219DEF3F009ABB8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D13ED3F219DEF40009ABB8B /* LaunchScreen.storyboard in Resources */,
+				9D13ED3C219DEF40009ABB8B /* Assets.xcassets in Resources */,
+				9D13ED3A219DEF3F009ABB8B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D13ED43219DEF40009ABB8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D13ED4E219DEF40009ABB8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C6CBB1EAC38D5C4F282AED4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GeniusPlazaCodingChallenge/Pods-GeniusPlazaCodingChallenge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeniusPlazaCodingChallenge/Pods-GeniusPlazaCodingChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25E1ECAB8F7FDD19DAC87953 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GeniusPlazaCodingChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6ACAE3EB3B97259387BAD97A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GeniusPlazaCodingChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96EC164B1AF43CA5DEDA93B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GeniusPlazaCodingChallengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D13ED2D219DEF3F009ABB8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D13ED37219DEF3F009ABB8B /* ViewController.swift in Sources */,
+				9D13ED63219DF077009ABB8B /* ApiFunctions.swift in Sources */,
+				9D13ED35219DEF3F009ABB8B /* AppDelegate.swift in Sources */,
+				9D13ED65219DF24D009ABB8B /* Constants.swift in Sources */,
+				9D13ED68219DF410009ABB8B /* IOSAppModel.swift in Sources */,
+				9D13ED6A219DF7E5009ABB8B /* ParseHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D13ED41219DEF40009ABB8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D13ED4A219DEF40009ABB8B /* GeniusPlazaCodingChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D13ED4C219DEF40009ABB8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D13ED55219DEF40009ABB8B /* GeniusPlazaCodingChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D13ED47219DEF40009ABB8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D13ED30219DEF3F009ABB8B /* GeniusPlazaCodingChallenge */;
+			targetProxy = 9D13ED46219DEF40009ABB8B /* PBXContainerItemProxy */;
+		};
+		9D13ED52219DEF40009ABB8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D13ED30219DEF3F009ABB8B /* GeniusPlazaCodingChallenge */;
+			targetProxy = 9D13ED51219DEF40009ABB8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D13ED38219DEF3F009ABB8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D13ED39219DEF3F009ABB8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D13ED3D219DEF40009ABB8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D13ED3E219DEF40009ABB8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D13ED57219DEF40009ABB8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9D13ED58219DEF40009ABB8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D13ED5A219DEF40009ABB8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC6C1A424A8AB1C330137CC9 /* Pods-GeniusPlazaCodingChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GNTMNU45P5;
+				INFOPLIST_FILE = GeniusPlazaCodingChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PerroneCode.GeniusPlazaCodingChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D13ED5B219DEF40009ABB8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F82FB69B95CE203DE4AB376 /* Pods-GeniusPlazaCodingChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GNTMNU45P5;
+				INFOPLIST_FILE = GeniusPlazaCodingChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PerroneCode.GeniusPlazaCodingChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9D13ED5D219DEF40009ABB8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0963E50FC755B54CB393B1E7 /* Pods-GeniusPlazaCodingChallengeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GNTMNU45P5;
+				INFOPLIST_FILE = GeniusPlazaCodingChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PerroneCode.GeniusPlazaCodingChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeniusPlazaCodingChallenge.app/GeniusPlazaCodingChallenge";
+			};
+			name = Debug;
+		};
+		9D13ED5E219DEF40009ABB8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 715EECD0662011B2C1548C7B /* Pods-GeniusPlazaCodingChallengeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GNTMNU45P5;
+				INFOPLIST_FILE = GeniusPlazaCodingChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PerroneCode.GeniusPlazaCodingChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeniusPlazaCodingChallenge.app/GeniusPlazaCodingChallenge";
+			};
+			name = Release;
+		};
+		9D13ED60219DEF40009ABB8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0817FCA28AACDB54A0D982F2 /* Pods-GeniusPlazaCodingChallengeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GNTMNU45P5;
+				INFOPLIST_FILE = GeniusPlazaCodingChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PerroneCode.GeniusPlazaCodingChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeniusPlazaCodingChallenge;
+			};
+			name = Debug;
+		};
+		9D13ED61219DEF40009ABB8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3947D963BDE1D258D3372CF /* Pods-GeniusPlazaCodingChallengeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GNTMNU45P5;
+				INFOPLIST_FILE = GeniusPlazaCodingChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PerroneCode.GeniusPlazaCodingChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeniusPlazaCodingChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D13ED2C219DEF3E009ABB8B /* Build configuration list for PBXProject "GeniusPlazaCodingChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D13ED57219DEF40009ABB8B /* Debug */,
+				9D13ED58219DEF40009ABB8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D13ED59219DEF40009ABB8B /* Build configuration list for PBXNativeTarget "GeniusPlazaCodingChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D13ED5A219DEF40009ABB8B /* Debug */,
+				9D13ED5B219DEF40009ABB8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D13ED5C219DEF40009ABB8B /* Build configuration list for PBXNativeTarget "GeniusPlazaCodingChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D13ED5D219DEF40009ABB8B /* Debug */,
+				9D13ED5E219DEF40009ABB8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D13ED5F219DEF40009ABB8B /* Build configuration list for PBXNativeTarget "GeniusPlazaCodingChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D13ED60219DEF40009ABB8B /* Debug */,
+				9D13ED61219DEF40009ABB8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D13ED29219DEF3E009ABB8B /* Project object */;
+}

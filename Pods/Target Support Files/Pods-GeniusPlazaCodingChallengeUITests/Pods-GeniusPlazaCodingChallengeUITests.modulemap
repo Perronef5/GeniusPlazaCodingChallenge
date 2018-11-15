@@ -1,0 +1,6 @@
+framework module Pods_GeniusPlazaCodingChallengeUITests {
+  umbrella header "Pods-GeniusPlazaCodingChallengeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_GeniusPlazaCodingChallenge {
+  umbrella header "Pods-GeniusPlazaCodingChallenge-umbrella.h"
+
+  export *
+  module * { export * }
+}
