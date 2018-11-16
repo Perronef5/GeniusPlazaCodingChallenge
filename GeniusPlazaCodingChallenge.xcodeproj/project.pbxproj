@@ -18,6 +18,9 @@
 		9D13ED65219DF24D009ABB8B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13ED64219DF24D009ABB8B /* Constants.swift */; };
 		9D13ED68219DF410009ABB8B /* IOSAppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13ED67219DF410009ABB8B /* IOSAppModel.swift */; };
 		9D13ED6A219DF7E5009ABB8B /* ParseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13ED69219DF7E5009ABB8B /* ParseHelper.swift */; };
+		9D13EF0A219E1646009ABB8B /* IOSAppTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13EF08219E1646009ABB8B /* IOSAppTableViewCell.swift */; };
+		9D13EF0B219E1646009ABB8B /* IOSAppTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D13EF09219E1646009ABB8B /* IOSAppTableViewCell.xib */; };
+		9D612233219E1ED8003BF70C /* CommonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D612232219E1ED8003BF70C /* CommonUtils.swift */; };
 		C411D1285C1D307DEDF7DCD7 /* Pods_GeniusPlazaCodingChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CCCCEFA570EA633267001B /* Pods_GeniusPlazaCodingChallengeTests.framework */; };
 		E5A27662CADC65975C4F852E /* Pods_GeniusPlazaCodingChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209B850BA7C451D3B7EEA032 /* Pods_GeniusPlazaCodingChallenge.framework */; };
 		E5BC7C1DBBF9B14E8E7459F9 /* Pods_GeniusPlazaCodingChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A32CB4B2B8A47DC93DCE209 /* Pods_GeniusPlazaCodingChallengeUITests.framework */; };
@@ -65,6 +68,9 @@
 		9D13ED64219DF24D009ABB8B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		9D13ED67219DF410009ABB8B /* IOSAppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSAppModel.swift; sourceTree = "<group>"; };
 		9D13ED69219DF7E5009ABB8B /* ParseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseHelper.swift; sourceTree = "<group>"; };
+		9D13EF08219E1646009ABB8B /* IOSAppTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IOSAppTableViewCell.swift; sourceTree = "<group>"; };
+		9D13EF09219E1646009ABB8B /* IOSAppTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IOSAppTableViewCell.xib; sourceTree = "<group>"; };
+		9D612232219E1ED8003BF70C /* CommonUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonUtils.swift; sourceTree = "<group>"; };
 		BC6C1A424A8AB1C330137CC9 /* Pods-GeniusPlazaCodingChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusPlazaCodingChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeniusPlazaCodingChallenge/Pods-GeniusPlazaCodingChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		C3947D963BDE1D258D3372CF /* Pods-GeniusPlazaCodingChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusPlazaCodingChallengeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeniusPlazaCodingChallengeUITests/Pods-GeniusPlazaCodingChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,6 +138,7 @@
 		9D13ED33219DEF3F009ABB8B /* GeniusPlazaCodingChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				9D13ED6B219E1455009ABB8B /* TableViewCells */,
 				9D13ED66219DF3FB009ABB8B /* Models */,
 				9D13ED34219DEF3F009ABB8B /* AppDelegate.swift */,
 				9D13ED36219DEF3F009ABB8B /* ViewController.swift */,
@@ -140,6 +147,7 @@
 				9D13ED3D219DEF40009ABB8B /* LaunchScreen.storyboard */,
 				9D13ED40219DEF40009ABB8B /* Info.plist */,
 				9D13ED62219DF077009ABB8B /* ApiFunctions.swift */,
+				9D612232219E1ED8003BF70C /* CommonUtils.swift */,
 				9D13ED64219DF24D009ABB8B /* Constants.swift */,
 				9D13ED69219DF7E5009ABB8B /* ParseHelper.swift */,
 			);
@@ -170,6 +178,15 @@
 				9D13ED67219DF410009ABB8B /* IOSAppModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		9D13ED6B219E1455009ABB8B /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				9D13EF08219E1646009ABB8B /* IOSAppTableViewCell.swift */,
+				9D13EF09219E1646009ABB8B /* IOSAppTableViewCell.xib */,
+			);
+			path = TableViewCells;
 			sourceTree = "<group>";
 		};
 		DA1DAE163BB1EE7EE0BB5000 /* Pods */ = {
@@ -295,6 +312,7 @@
 			files = (
 				9D13ED3F219DEF40009ABB8B /* LaunchScreen.storyboard in Resources */,
 				9D13ED3C219DEF40009ABB8B /* Assets.xcassets in Resources */,
+				9D13EF0B219E1646009ABB8B /* IOSAppTableViewCell.xib in Resources */,
 				9D13ED3A219DEF3F009ABB8B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +415,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D13EF0A219E1646009ABB8B /* IOSAppTableViewCell.swift in Sources */,
+				9D612233219E1ED8003BF70C /* CommonUtils.swift in Sources */,
 				9D13ED37219DEF3F009ABB8B /* ViewController.swift in Sources */,
 				9D13ED63219DF077009ABB8B /* ApiFunctions.swift in Sources */,
 				9D13ED35219DEF3F009ABB8B /* AppDelegate.swift in Sources */,
