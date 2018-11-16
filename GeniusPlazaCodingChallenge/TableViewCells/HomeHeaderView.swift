@@ -1,11 +1,3 @@
-//
-//  HomeHeaderView.swift
-//  SeroundIOS
-//
-//  Created by Luis F. Perrone on 9/28/18.
-//  Copyright © 2018 Seround. All rights reserved.
-//
-
 import UIKit
 
 extension UIView {

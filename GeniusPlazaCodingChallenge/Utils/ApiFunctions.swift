@@ -12,8 +12,8 @@ import SwiftyJSON
 
 class ApiFunctions {
     
-    // Get IOS Apps Data //
-    static func getIOSAppsData(urlRequest: String, completion : @escaping (String, [MediaModel]) -> ()){
+    // Get Media Data //
+    static func getMediaData(urlRequest: String, completion : @escaping (String, [MediaModel]) -> ()){
 //        NSLog(Constants.IOSAPPS_URL)
     
         Alamofire.request(urlRequest, method: .get).responseJSON (completionHandler: { response in

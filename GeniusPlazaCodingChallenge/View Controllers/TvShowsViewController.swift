@@ -46,7 +46,7 @@ class TvShowsViewController: UIViewController {
         myTableView.register(UINib(nibName: "MediaTableViewCell", bundle: nil), forCellReuseIdentifier: "MediaCell")
         
         // Network Request
-        ApiFunctions.getIOSAppsData(urlRequest: Constants.TVSHOWS_URL) { (response, mediaObjects ) in
+        ApiFunctions.getMediaData(urlRequest: Constants.TVSHOWS_URL) { (response, mediaObjects ) in
             self.mediaObjectsArray = mediaObjects
             self.myTableView.reloadData()
         }
