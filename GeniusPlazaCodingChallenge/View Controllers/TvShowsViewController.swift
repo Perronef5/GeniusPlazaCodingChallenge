@@ -12,6 +12,7 @@ class TvShowsViewController: UIViewController {
     
     var myTableView: UITableView!
     var mediaObjectsArray: [MediaModel]!
+    var isLandscape = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -69,6 +70,18 @@ class TvShowsViewController: UIViewController {
         }
     }
     
+    
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        super.viewWillTransition(to: size, with: coordinator)
+        if UIDevice.current.orientation.isLandscape {
+            print("Landscape")
+            isLandscape = true
+        } else {
+            print("Portrait")
+            isLandscape = false
+        }
+    }
+    
 }
 
 extension TvShowsViewController : UITableViewDelegate, UITableViewDataSource{
@@ -109,7 +122,11 @@ extension TvShowsViewController : UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         
         if tableView == myTableView {
-            return 450
+            if isLandscape {
+                return self.view.frame.width + 100
+            } else {
+                return 450
+            }
         }
         
         return 0
