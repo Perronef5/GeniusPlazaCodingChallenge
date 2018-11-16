@@ -11,8 +11,8 @@ import SwiftyJSON
 
 class ParseHelper {
     
-    static func parseIOSApp(_ object: JSON) -> IOSAppModel{
-        let iosApp = IOSAppModel()
+    static func parseIOSApp(_ object: JSON) -> MediaModel{
+        let iosApp = MediaModel()
         
         iosApp.artistName = object["artistName"].stringValue
         iosApp.id = object["id"].stringValue

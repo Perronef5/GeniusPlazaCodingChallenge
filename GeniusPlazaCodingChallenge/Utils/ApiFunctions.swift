@@ -13,15 +13,15 @@ import SwiftyJSON
 class ApiFunctions {
     
     // Get IOS Apps Data //
-    static func getIOSAppsData( completion : @escaping (String, [IOSAppModel]) -> ()){
-        NSLog(Constants.IOSAPPS_URL)
+    static func getIOSAppsData(urlRequest: String, completion : @escaping (String, [MediaModel]) -> ()){
+//        NSLog(Constants.IOSAPPS_URL)
     
-        Alamofire.request(Constants.IOSAPPS_URL, method: .get).responseJSON (completionHandler: { response in
+        Alamofire.request(urlRequest, method: .get).responseJSON (completionHandler: { response in
             
             let json = JSON(response.result.value!)
             NSLog("\(json)")
                 
-            var iosAppsArray : [IOSAppModel] = []
+            var iosAppsArray : [MediaModel] = []
             let feedObject = JSON(json["feed"])
             let resultsArray = feedObject["results"].arrayValue
             

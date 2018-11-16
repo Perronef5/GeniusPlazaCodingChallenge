@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9D13ED35219DEF3F009ABB8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13ED34219DEF3F009ABB8B /* AppDelegate.swift */; };
-		9D13ED37219DEF3F009ABB8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13ED36219DEF3F009ABB8B /* ViewController.swift */; };
+		9D13ED37219DEF3F009ABB8B /* IOSAppsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13ED36219DEF3F009ABB8B /* IOSAppsViewController.swift */; };
 		9D13ED3A219DEF3F009ABB8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D13ED38219DEF3F009ABB8B /* Main.storyboard */; };
 		9D13ED3C219DEF40009ABB8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D13ED3B219DEF40009ABB8B /* Assets.xcassets */; };
 		9D13ED3F219DEF40009ABB8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D13ED3D219DEF40009ABB8B /* LaunchScreen.storyboard */; };
@@ -16,11 +16,17 @@
 		9D13ED55219DEF40009ABB8B /* GeniusPlazaCodingChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13ED54219DEF40009ABB8B /* GeniusPlazaCodingChallengeUITests.swift */; };
 		9D13ED63219DF077009ABB8B /* ApiFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13ED62219DF077009ABB8B /* ApiFunctions.swift */; };
 		9D13ED65219DF24D009ABB8B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13ED64219DF24D009ABB8B /* Constants.swift */; };
-		9D13ED68219DF410009ABB8B /* IOSAppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13ED67219DF410009ABB8B /* IOSAppModel.swift */; };
+		9D13ED68219DF410009ABB8B /* MediaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13ED67219DF410009ABB8B /* MediaModel.swift */; };
 		9D13ED6A219DF7E5009ABB8B /* ParseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13ED69219DF7E5009ABB8B /* ParseHelper.swift */; };
-		9D13EF0A219E1646009ABB8B /* IOSAppTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13EF08219E1646009ABB8B /* IOSAppTableViewCell.swift */; };
-		9D13EF0B219E1646009ABB8B /* IOSAppTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D13EF09219E1646009ABB8B /* IOSAppTableViewCell.xib */; };
+		9D13EF0A219E1646009ABB8B /* MediaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D13EF08219E1646009ABB8B /* MediaTableViewCell.swift */; };
+		9D13EF0B219E1646009ABB8B /* MediaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D13EF09219E1646009ABB8B /* MediaTableViewCell.xib */; };
 		9D612233219E1ED8003BF70C /* CommonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D612232219E1ED8003BF70C /* CommonUtils.swift */; };
+		9D612236219E75A3003BF70C /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D612234219E75A2003BF70C /* HomeHeaderView.swift */; };
+		9D612237219E75A3003BF70C /* HomeHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D612235219E75A2003BF70C /* HomeHeaderView.xib */; };
+		9D612239219E7CF9003BF70C /* ItunesMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D612238219E7CF9003BF70C /* ItunesMusicViewController.swift */; };
+		9D61223B219E7D27003BF70C /* AudioBooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D61223A219E7D27003BF70C /* AudioBooksViewController.swift */; };
+		9D61223D219E8154003BF70C /* TvShowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D61223C219E8154003BF70C /* TvShowsViewController.swift */; };
+		9D61223F219E8166003BF70C /* PodcastsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D61223E219E8166003BF70C /* PodcastsViewController.swift */; };
 		C411D1285C1D307DEDF7DCD7 /* Pods_GeniusPlazaCodingChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CCCCEFA570EA633267001B /* Pods_GeniusPlazaCodingChallengeTests.framework */; };
 		E5A27662CADC65975C4F852E /* Pods_GeniusPlazaCodingChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209B850BA7C451D3B7EEA032 /* Pods_GeniusPlazaCodingChallenge.framework */; };
 		E5BC7C1DBBF9B14E8E7459F9 /* Pods_GeniusPlazaCodingChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A32CB4B2B8A47DC93DCE209 /* Pods_GeniusPlazaCodingChallengeUITests.framework */; };
@@ -53,7 +59,7 @@
 		715EECD0662011B2C1548C7B /* Pods-GeniusPlazaCodingChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusPlazaCodingChallengeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeniusPlazaCodingChallengeTests/Pods-GeniusPlazaCodingChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
 		9D13ED31219DEF3F009ABB8B /* GeniusPlazaCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeniusPlazaCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D13ED34219DEF3F009ABB8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9D13ED36219DEF3F009ABB8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9D13ED36219DEF3F009ABB8B /* IOSAppsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSAppsViewController.swift; sourceTree = "<group>"; };
 		9D13ED39219DEF3F009ABB8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D13ED3B219DEF40009ABB8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D13ED3E219DEF40009ABB8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -66,11 +72,17 @@
 		9D13ED56219DEF40009ABB8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D13ED62219DF077009ABB8B /* ApiFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiFunctions.swift; sourceTree = "<group>"; };
 		9D13ED64219DF24D009ABB8B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		9D13ED67219DF410009ABB8B /* IOSAppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSAppModel.swift; sourceTree = "<group>"; };
+		9D13ED67219DF410009ABB8B /* MediaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaModel.swift; sourceTree = "<group>"; };
 		9D13ED69219DF7E5009ABB8B /* ParseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseHelper.swift; sourceTree = "<group>"; };
-		9D13EF08219E1646009ABB8B /* IOSAppTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IOSAppTableViewCell.swift; sourceTree = "<group>"; };
-		9D13EF09219E1646009ABB8B /* IOSAppTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IOSAppTableViewCell.xib; sourceTree = "<group>"; };
+		9D13EF08219E1646009ABB8B /* MediaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaTableViewCell.swift; sourceTree = "<group>"; };
+		9D13EF09219E1646009ABB8B /* MediaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MediaTableViewCell.xib; sourceTree = "<group>"; };
 		9D612232219E1ED8003BF70C /* CommonUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonUtils.swift; sourceTree = "<group>"; };
+		9D612234219E75A2003BF70C /* HomeHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		9D612235219E75A2003BF70C /* HomeHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeHeaderView.xib; sourceTree = "<group>"; };
+		9D612238219E7CF9003BF70C /* ItunesMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesMusicViewController.swift; sourceTree = "<group>"; };
+		9D61223A219E7D27003BF70C /* AudioBooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioBooksViewController.swift; sourceTree = "<group>"; };
+		9D61223C219E8154003BF70C /* TvShowsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShowsViewController.swift; sourceTree = "<group>"; };
+		9D61223E219E8166003BF70C /* PodcastsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastsViewController.swift; sourceTree = "<group>"; };
 		BC6C1A424A8AB1C330137CC9 /* Pods-GeniusPlazaCodingChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusPlazaCodingChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeniusPlazaCodingChallenge/Pods-GeniusPlazaCodingChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		C3947D963BDE1D258D3372CF /* Pods-GeniusPlazaCodingChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeniusPlazaCodingChallengeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeniusPlazaCodingChallengeUITests/Pods-GeniusPlazaCodingChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -138,18 +150,15 @@
 		9D13ED33219DEF3F009ABB8B /* GeniusPlazaCodingChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				9D13ED3B219DEF40009ABB8B /* Assets.xcassets */,
+				9D13ED40219DEF40009ABB8B /* Info.plist */,
+				9D13ED34219DEF3F009ABB8B /* AppDelegate.swift */,
+				9D13ED3D219DEF40009ABB8B /* LaunchScreen.storyboard */,
+				9D13ED38219DEF3F009ABB8B /* Main.storyboard */,
+				9D612240219E82FA003BF70C /* View Controllers */,
 				9D13ED6B219E1455009ABB8B /* TableViewCells */,
 				9D13ED66219DF3FB009ABB8B /* Models */,
-				9D13ED34219DEF3F009ABB8B /* AppDelegate.swift */,
-				9D13ED36219DEF3F009ABB8B /* ViewController.swift */,
-				9D13ED38219DEF3F009ABB8B /* Main.storyboard */,
-				9D13ED3B219DEF40009ABB8B /* Assets.xcassets */,
-				9D13ED3D219DEF40009ABB8B /* LaunchScreen.storyboard */,
-				9D13ED40219DEF40009ABB8B /* Info.plist */,
-				9D13ED62219DF077009ABB8B /* ApiFunctions.swift */,
-				9D612232219E1ED8003BF70C /* CommonUtils.swift */,
-				9D13ED64219DF24D009ABB8B /* Constants.swift */,
-				9D13ED69219DF7E5009ABB8B /* ParseHelper.swift */,
+				9D612241219E831A003BF70C /* Utils */,
 			);
 			path = GeniusPlazaCodingChallenge;
 			sourceTree = "<group>";
@@ -175,7 +184,7 @@
 		9D13ED66219DF3FB009ABB8B /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				9D13ED67219DF410009ABB8B /* IOSAppModel.swift */,
+				9D13ED67219DF410009ABB8B /* MediaModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -183,10 +192,35 @@
 		9D13ED6B219E1455009ABB8B /* TableViewCells */ = {
 			isa = PBXGroup;
 			children = (
-				9D13EF08219E1646009ABB8B /* IOSAppTableViewCell.swift */,
-				9D13EF09219E1646009ABB8B /* IOSAppTableViewCell.xib */,
+				9D13EF08219E1646009ABB8B /* MediaTableViewCell.swift */,
+				9D13EF09219E1646009ABB8B /* MediaTableViewCell.xib */,
+				9D612234219E75A2003BF70C /* HomeHeaderView.swift */,
+				9D612235219E75A2003BF70C /* HomeHeaderView.xib */,
 			);
 			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		9D612240219E82FA003BF70C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9D13ED36219DEF3F009ABB8B /* IOSAppsViewController.swift */,
+				9D61223A219E7D27003BF70C /* AudioBooksViewController.swift */,
+				9D612238219E7CF9003BF70C /* ItunesMusicViewController.swift */,
+				9D61223C219E8154003BF70C /* TvShowsViewController.swift */,
+				9D61223E219E8166003BF70C /* PodcastsViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9D612241219E831A003BF70C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9D13ED62219DF077009ABB8B /* ApiFunctions.swift */,
+				9D612232219E1ED8003BF70C /* CommonUtils.swift */,
+				9D13ED64219DF24D009ABB8B /* Constants.swift */,
+				9D13ED69219DF7E5009ABB8B /* ParseHelper.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		DA1DAE163BB1EE7EE0BB5000 /* Pods */ = {
@@ -311,8 +345,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D13ED3F219DEF40009ABB8B /* LaunchScreen.storyboard in Resources */,
+				9D612237219E75A3003BF70C /* HomeHeaderView.xib in Resources */,
 				9D13ED3C219DEF40009ABB8B /* Assets.xcassets in Resources */,
-				9D13EF0B219E1646009ABB8B /* IOSAppTableViewCell.xib in Resources */,
+				9D13EF0B219E1646009ABB8B /* MediaTableViewCell.xib in Resources */,
 				9D13ED3A219DEF3F009ABB8B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,14 +450,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D13EF0A219E1646009ABB8B /* IOSAppTableViewCell.swift in Sources */,
+				9D13EF0A219E1646009ABB8B /* MediaTableViewCell.swift in Sources */,
 				9D612233219E1ED8003BF70C /* CommonUtils.swift in Sources */,
-				9D13ED37219DEF3F009ABB8B /* ViewController.swift in Sources */,
+				9D13ED37219DEF3F009ABB8B /* IOSAppsViewController.swift in Sources */,
+				9D612236219E75A3003BF70C /* HomeHeaderView.swift in Sources */,
 				9D13ED63219DF077009ABB8B /* ApiFunctions.swift in Sources */,
 				9D13ED35219DEF3F009ABB8B /* AppDelegate.swift in Sources */,
 				9D13ED65219DF24D009ABB8B /* Constants.swift in Sources */,
-				9D13ED68219DF410009ABB8B /* IOSAppModel.swift in Sources */,
+				9D61223D219E8154003BF70C /* TvShowsViewController.swift in Sources */,
+				9D13ED68219DF410009ABB8B /* MediaModel.swift in Sources */,
+				9D612239219E7CF9003BF70C /* ItunesMusicViewController.swift in Sources */,
+				9D61223F219E8166003BF70C /* PodcastsViewController.swift in Sources */,
 				9D13ED6A219DF7E5009ABB8B /* ParseHelper.swift in Sources */,
+				9D61223B219E7D27003BF70C /* AudioBooksViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

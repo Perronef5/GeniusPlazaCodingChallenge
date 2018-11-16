@@ -1,5 +1,5 @@
 //
-//  IOSAppModel.swift
+//  MediaModel.swift
 //  GeniusPlazaCodingChallenge
 //
 //  Created by Luis F. Perrone on 11/15/18.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-class IOSAppModel {
+class MediaModel {
     var artistName : String = ""
     var id: String = ""
     var releaseDate: String = ""
